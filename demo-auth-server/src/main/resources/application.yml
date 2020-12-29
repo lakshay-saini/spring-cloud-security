@@ -1,0 +1,13 @@
+server:
+  port: 7070
+  servlet:
+    context-path: /authserver
+
+jwt:
+  certificate:
+    store:
+      file: classpath:/certificate/mykeystore.jks
+      password: abirkhan04
+    key:
+      alias: myauthkey
+      password: abirkhan04
